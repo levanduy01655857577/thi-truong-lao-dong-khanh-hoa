@@ -1,0 +1,4194 @@
+.display_none{
+  display: none;
+}
+.center{
+  text-align:center !important;
+}
+.right{
+  text-align:right !important;
+}
+.left{
+  text-align:left !important;
+}
+.font16 {
+font-size:16px !important;
+}
+.font18 {
+font-size:18px !important;
+}
+.font20 {
+font-size:20px !important;
+}
+.font24 {
+font-size:24px !important;
+}
+.p0{padding: 0}
+.p10 {padding: 10px;}
+.p-b-5 {padding-bottom:5px!important;}
+.p-b-10 {
+padding-bottom:10px!important;
+}
+.p-l-5{
+padding-left:5px!important;
+}
+.p-l-15{
+  padding-left:15px!important;
+}
+.p-l-46{
+padding-left:46px!important;
+}
+.p-l-20{
+padding-left:20px!important;
+}
+.p-r-5{
+padding-right:5px!important;
+}
+.p-r-15{
+padding-right:15px!important;
+}
+.p-t-0{
+padding-right:0px!important;
+}
+.m-b-0 {
+  margin-bottom:0px!important;
+}
+.m-b-5 {
+  margin-bottom:5px!important;
+}
+.m-b-10 {
+margin-bottom:10px!important;
+}
+.m-t-5 {
+margin-top:5px!important;
+}
+.m-t-0 {
+margin-top:0px!important;
+}
+.m-t-10 {
+margin-top:10px!important;
+}
+.m-t-20 {
+margin-top:20px!important;
+}
+.m-r-5 {
+margin-right:5px!important;
+}
+.m-r-10 {
+margin-right:10px!important;
+}
+.m-l-5{
+margin-left:5px!important;
+}
+.m-l-20{
+margin-left:20px!important;
+}
+.m-r-20{
+margin-right:20px!important;
+}
+.m-l-35{
+  margin-left:35px!important;
+}
+.m-r-3{
+  margin-right:3px!important;
+}
+.margin_auto{
+  margin: 0 auto!important;
+}
+.text-decoration{
+text-decoration:underline;
+}
+.square-list-type{
+  list-style: square url("https://cdn.timviecnhanh.com/asset/home/img/square_list.gif");
+  padding-left: 12px;
+}
+.normal-list-type{
+list-style:none;
+}
+.normal-list-type li:before {
+    content: "-";
+    padding-right: 5px;
+}
+.bt-col-exp{
+position: absolute;
+right: 0;
+width: 90px;
+background: #FFF;
+}
+.bt-col-exp2{
+right: 0;
+width: 90px;
+background: #FFF;
+}
+.bt-collapse{
+  font-weight: 400;
+  font-family: arial;
+  border-radius: 00;
+  border: none;
+  color: #636363;
+  height: 22px;
+  line-height: 22px;
+  border: 3px solid #e1e1e1;
+  border-radius: 3px;
+  font-size: 12px;
+  width:70px;
+  padding-left: 4px;
+  float:right;
+  cursor: pointer;
+}
+.button-collapse{
+  background: #FFFFFF url(../img/xarrow-down-open.png) no-repeat scroll 54px 8px;
+}
+.button-expanded{
+  background: #FFFFFF url(../img/xarrow-down.png) no-repeat scroll 54px 8px;
+}
+.group-collapse{
+}
+.required_input{
+float:right;
+font-style:italic;
+}
+.text_required{
+font-style:italic;
+font-weight:normal;
+}
+.blue{
+color:#2d82c3;
+}
+.grey{
+color:#333;
+}
+.brown{
+color:#757575;
+}
+.italic{
+font-style:italic;
+}
+.btn-brown {
+background-color:#636363;
+color:#fff;
+border-color:#636363;
+}
+.btn-brown:hover {
+background-color:#222222;
+cursor:pointer;
+color:#fff!important;
+}
+
+.btn-brown-disable {
+background-color:#636363;
+cursor: default;
+color:#fff!important;
+}
+
+.btn-default2{
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 700;
+  color: #eb1b22;
+  height: 40px;
+  line-height: 38px;
+  border: 1px solid #ccc;
+  text-align: center;
+  border-radius: 2px;
+  margin: 0 10px;
+  width: 72px;
+  background-color: #fff;
+}
+.btn-default2:hover{
+  background-color: #ccc;
+  color: #eb1b22!important;
+}
+.bt_input{
+  border: none;
+  background: none;
+  opacity: 0;
+  /* IE 8 */
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  /* IE 5-7 */
+  filter: alpha(opacity=0);
+  /* Netscape */
+  -moz-opacity: 0;
+  /* Safari 1.x */
+  -khtml-opacity: 0;
+  height: 40px;
+  left: 0;
+  cursor:pointer;
+}
+.pos_relactive{
+position:relative !important;
+}
+.pos_absolute{
+position:absolute;
+}
+.title_block_nored{
+  overflow: hidden;
+  font-weight: 700;
+  font-size: 18px;
+  padding: 0;
+  line-height: 29px;
+  margin-bottom: 10px;
+  padding-right: 0;
+  position: relative;
+  color: #2d82c4;
+}
+.font13{
+font-size:13px;
+}
+.font14{
+font-size:14px;
+}
+.font100{
+font-size:100%;
+}
+.taohoso .select2-container .select2-choice>.select2-chosen{
+font-size:13px;
+}
+.group-field input {
+  height: 31px;
+  border: 1px solid #ccc;
+  padding: 0;
+  padding-left: 5px;
+}
+.triangle-border {
+  position: relative;
+  padding: 10px;
+  margin: 1em 0 1em;
+  border: 2px solid #cdcdcd;
+  color: #333;
+  background: #fff;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 2px;
+}
+.triangle-border:before {
+  content: "";
+  position: absolute;
+  bottom: -12px;
+  left: 290px;
+  border-width: 12px 12px 0;
+  border-style: solid;
+  border-color: #cdcdcd transparent;
+  display: block;
+  width: 0;
+}
+.triangle-border:after {
+  content: "";
+  position: absolute;
+  bottom: -9px;
+  left: 293px;
+  border-width: 9px 9px 0;
+  border-style: solid;
+  border-color: #fff transparent;
+  display: block;
+  width: 0;
+}
+
+.font14_im {
+  font-size:14px !important;
+}
+.primary .icon-seekers img{
+margin:0 auto;
+margin-top: 20px;
+margin-bottom:20px;
+display:block;
+}
+.n-m-r{
+margin-right:0 !important;
+}
+.display_block{
+display:block;
+}
+.box_checkbox{
+position:relative;
+}
+.floatLeft{
+float:left;
+}
+.floatRight{
+float:right;
+}
+.box_checkbox label {
+  display: inline-block;
+  cursor: pointer;
+  position: relative;
+  padding-left: 20px;
+  margin-right: 15px;
+  font-size: 13px;
+  padding-top: 10px;
+    line-height: 12px;
+}
+.box_checkbox input[type=radio],
+.box_checkbox input[type=checkbox] {
+  display: none;
+}
+.box_checkbox label:before {
+  content: "";
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin-right: 10px;
+  position: absolute;
+  left: 0;
+  bottom: 1px;
+  border:1px solid #999;
+}
+
+.box_checkbox .radio label:before {
+  border-radius: 8px;
+}
+.box_checkbox .checkbox label {
+  margin-bottom: 10px;
+}
+.box_checkbox .checkbox label:before {
+    border-radius: 3px;
+}
+
+.box_checkbox input[type=radio]:checked + label:before {
+    content: "\2022";
+    color: #2d82c3;
+    font-size: 30px;
+    text-align: center;
+    line-height: 18px;
+}
+
+.box_checkbox input[type=checkbox]:checked + label:before {
+  content: "\2713";
+  font-size: 12px;
+  color: #2d82c3;
+  text-align: center;
+    line-height: 10px;
+}
+.icheckbox_square-blue, .iradio_square-blue{
+  width: 11px;
+  height: 11px;
+  float:left;
+}
+.demo-list {
+  /* margin-right:20px; */
+  margin-left:23px;
+}
+#block_kn_st .demo-list label {
+  position:relative;
+  top:-5px;
+  padding-left: 5px;
+  line-height: 25px;
+}
+.group-field input.fix-H25{
+    height: 25px!important;
+}
+
+#block_kn_st .fix-demo-list-css{
+  margin-left: 0!important;
+  margin-right: 0!important;
+}
+
+
+.icheckbox_square-blue, .iradio_square-blue{
+  background: url(/asset/css/checkbox/square/blue_small.png) no-repeat;
+}
+.icheckbox_square-blue.hover, .iradio_square-blue.hover {
+    background-position: -12px 0;
+ }
+.icheckbox_square-blue.checked, .iradio_square-blue.checked {
+        background-position: -24px 0;
+}
+.icheckbox_square-blue.disabled, .iradio_square-blue.disabled {
+        background-position: -36px 0;
+        cursor: default;
+}
+.icheckbox_square-blue.checked.disabled, .iradio_square-blue.checked.disabled {
+    background-position: -48px 0;
+}
+.icon_new{
+  background: url(/asset/img/ho-so/new_xicon_timviecnhanh.png.pagespeed.ic.NMCs2bdY-v.png);
+  background-repeat: no-repeat;
+  position: relative;
+  display: inline-block;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-save-new{
+  background-position: center -39px;
+}
+.icon-delete-new{
+  background-position: center -66px;
+}
+.icon-att {
+background-position: center -9px;
+}
+.btn-red-normal {
+  background-color: #ea1b21;
+  border-color: #d43f3a;
+  color: #fff;
+  font-weight:normal;
+}
+.btn-red-normal:hover {
+  background-color: #bd0000;
+  cursor: pointer;
+  color: #fff!important;
+}
+.btn-grey-normal {
+  background-color: #959595;
+  border-color: #d43f3a;
+  color: #fff;
+  font-weight:normal;
+}
+.btn-grey-normal:hover {
+  background-color: #727272;
+  cursor: pointer;
+  color: #fff!important;
+}
+.btn-big2 {
+  font-family: arial;
+  text-transform:none;
+  cursor: pointer;
+  padding: 0 23px;
+  padding-top:6px !important;
+  height: 28px;
+  font-size: 14px;
+  display: inline-block;
+  line-height: 40px;
+}
+.icon-bangcap{
+  background-position: center -1306px;
+}
+.line-dotted {
+  border-bottom: 1px dotted #ccc;
+  line-height: 15px;
+  padding-bottom: 5px;
+}
+
+.btn-add-new.viewall .fa.fa-plus{
+  height: 12px;
+  background-position: -11px -288px;
+  float:none;
+}
+.table_boder_thin, .table_boder_thin td{
+  padding:10px;
+  border: 1px solid #e1e1e1;
+}
+.width_100{
+width:100%;
+}
+.lh25{
+line-height: 25px;
+}
+.lh12{
+line-height: 12px;
+}
+.lh14{
+line-height: 14px;
+}
+
+.iradio_square-new {
+    display: inline-block;
+    *display: inline;
+    vertical-align: middle;
+    margin: 0;
+    padding: 0;
+    width: 16px;
+    height: 16px;
+    background: url(/asset/css/checkbox/square/blue_mid.png) no-repeat;
+    border: none;
+    cursor: pointer;
+}
+.iradio_square-new {
+    background-position:0;
+}
+.iradio_square-new.hover {
+    background-position: -17px 0;
+}
+.iradio_square-new.checked {
+    background-position: -34px 0;
+}
+.iradio_square-new.disabled {
+    background-position: -51px 0;
+    cursor: default;
+}
+.iradio_square-new.checked.disabled {
+    background-position: -68px 0;
+}
+.btn-grey-new {
+  height: 28px;
+  line-height: 28px;
+  border: 2px solid #e1e1e1;
+  border-radius: 2px;
+  font-size: 12px;
+  color: #636363;
+  display: inline-block;
+  zoom: 1;
+  padding: 0 10px;
+  padding-left: 30px;
+  position: relative;
+}
+.btn-grey-new:hover {
+  background-color: #e8e6e6;
+}
+.btn-edit-new{
+  background-position: 0 -8px;
+  background-image: url(/asset/img/ho-so/icon_edit_new_mode.png);
+  background-repeat: no-repeat;
+}
+.btn-refresh-new{
+  background-position: 5px -34px;
+  background-image: url(/asset/img/ho-so/icon_edit_new_mode.png);
+  background-repeat: no-repeat;
+}
+.btn-delete-new{
+  background-position: 18px -60px;
+  background-image: url(/asset/img/ho-so/icon_edit_new_mode.png);
+  background-repeat: no-repeat;
+}
+.text_grey{
+color:grey;
+}
+.label_block{
+display:block;
+}
+.flash-att{
+  position: relative;
+  display: inline-block;
+  zoom: 1;
+  top: 6px;
+  background: url(https://cdn.timviecnhanh.com/asset/home/img/icon_timviecnhanh.png);
+  background-position: center -1695px;
+  background-repeat: no-repeat;
+  width: 23px;
+  height: 20px;
+}
+#overlay_popup, #popup_component {
+  z-index: 10000;
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  background: rgba(0,0,0,0.3);
+  display: none;
+  -ms-flex-pack: center;
+  -ms-flex-align: center;
+  -moz-box-pack: center;
+  -moz-box-align: center;
+  -webkit-box-pack: center;
+  -webkit-box-align: center;
+  box-pack: center;
+  box-align: center;
+  height:auto;
+}
+#overlay_popup, #popup_component1 {
+  z-index: 10000;
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  background: rgba(0,0,0,0.3);
+  display: none;
+  -ms-flex-pack: center;
+  -ms-flex-align: center;
+  -moz-box-pack: center;
+  -moz-box-align: center;
+  -webkit-box-pack: center;
+  -webkit-box-align: center;
+  box-pack: center;
+  box-align: center;
+  height:auto;
+}
+#overlay_popup, #popup_component2 {
+  z-index: 10000;
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  background: rgba(0,0,0,0.3);
+  display: none;
+  -ms-flex-pack: center;
+  -ms-flex-align: center;
+  -moz-box-pack: center;
+  -moz-box-align: center;
+  -webkit-box-pack: center;
+  -webkit-box-align: center;
+  box-pack: center;
+  box-align: center;
+  height:auto;
+}
+#overlay_popup, #popup_component5 {
+  z-index: 10000;
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  background: rgba(0,0,0,0.3);
+  display: none;
+  -ms-flex-pack: center;
+  -ms-flex-align: center;
+  -moz-box-pack: center;
+  -moz-box-align: center;
+  -webkit-box-pack: center;
+  -webkit-box-align: center;
+  box-pack: center;
+  box-align: center;
+  height:auto;
+}
+#overlay_popup, #popup_component3, #popup_component6 {
+  z-index: 10000;
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  background: rgba(0,0,0,0.3);
+  display: none;
+  -ms-flex-pack: center;
+  -ms-flex-align: center;
+  -moz-box-pack: center;
+  -moz-box-align: center;
+  -webkit-box-pack: center;
+  -webkit-box-align: center;
+  box-pack: center;
+  box-align: center;
+  height:auto;
+}
+#overlay_popup, #popup_component4 {
+  z-index: 10000;
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  background: rgba(0,0,0,0.3);
+  display: none;
+  -ms-flex-pack: center;
+  -ms-flex-align: center;
+  -moz-box-pack: center;
+  -moz-box-align: center;
+  -webkit-box-pack: center;
+  -webkit-box-align: center;
+  box-pack: center;
+  box-align: center;
+  height:auto;
+}
+#overlay_popup, #popup_component_job_free {
+  z-index: 10000;
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  background: rgba(0,0,0,0.3);
+  display: none;
+  -ms-flex-pack: center;
+  -ms-flex-align: center;
+  -moz-box-pack: center;
+  -moz-box-align: center;
+  -webkit-box-pack: center;
+  -webkit-box-align: center;
+  box-pack: center;
+  box-align: center;
+  height:auto;
+}
+#popup_component_login {
+  z-index: 10001;
+  background: transparent;
+  display: none;
+}
+#pos_popup {
+  width: 100%;
+  position: absolute;
+}
+#pos_popup1 {
+  width: 100%;
+  position: absolute;
+}
+#pos_popup2 {
+  width: 100%;
+  position: absolute;
+}
+#pos_popup5 {
+  width: 100%;
+  position: absolute;
+}
+#pos_popup3,#pos_popup6 {
+  width: 100%;
+  position: absolute;
+}
+#pos_popup4 {
+  width: 100%;
+  position: absolute;
+}
+#pos_popup_job_free {
+  width: 100%;
+  position: absolute;
+}
+#popup_content {
+  z-index: 101;
+  width: 530px;
+  height: 135px;
+  text-align: left;
+  color: #424242;
+  position: relative;
+  background: white;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  padding-top: 5px;
+  margin: 0 auto!important;
+  border: 3px solid #2d82c2;
+  padding:20px;
+}
+#popup_content5 {
+  z-index: 101;
+  width: 530px;
+  height: 135px;
+  text-align: left;
+  color: #424242;
+  position: relative;
+  background: white;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  padding-top: 5px;
+  margin: 0 auto!important;
+  border: 3px solid #2d82c2;
+  padding:20px;
+}
+#popup_content1 {
+  z-index: 101;
+  width: 530px;
+  height: 135px;
+  text-align: left;
+  color: #424242;
+  position: relative;
+  background: white;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  padding-top: 5px;
+  margin: 0 auto!important;
+  border: 3px solid #2d82c2;
+  padding:20px;
+}
+#popup_content2 {
+  z-index: 101;
+  width: 530px;
+  height: 135px;
+  text-align: left;
+  color: #424242;
+  position: relative;
+  background: white;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  padding-top: 5px;
+  margin: 0 auto!important;
+  border: 3px solid #2d82c2;
+  padding:20px;
+}
+#popup_content3,#popup_content6 {
+  z-index: 101;
+  width: 530px;
+  height: 135px;
+  text-align: left;
+  color: #424242;
+  position: relative;
+  background: white;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  padding-top: 5px;
+  margin: 0 auto!important;
+  border: 3px solid #2d82c2;
+  padding:20px;
+}
+#popup_content4 {
+  z-index: 101;
+  width: 530px;
+  height: 135px;
+  text-align: left;
+  color: #424242;
+  position: relative;
+  background: white;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  padding-top: 5px;
+  margin: 0 auto!important;
+  border: 3px solid #2d82c2;
+  padding:20px;
+}
+#popup_content_job_free {
+  z-index: 101;
+  width: 530px;
+  height: 135px;
+  text-align: left;
+  color: #424242;
+  position: relative;
+  background: white;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  padding-top: 5px;
+  margin: 0 auto!important;
+  border: 3px solid #2d82c2;
+  padding:20px;
+}
+.btn_close {
+  position: absolute;
+  width: 36px;
+  right: -5px;
+  top: 2px;
+  cursor: pointer;
+  height:30px;
+}
+.btn_close1 {
+  position: absolute;
+  width: 36px;
+  right: -5px;
+  top: 2px;
+  cursor: pointer;
+  height:30px;
+}
+.btn_close2 {
+  position: absolute;
+  width: 36px;
+  right: -5px;
+  top: 2px;
+  cursor: pointer;
+  height:30px;
+}
+.btn_close5 {
+  position: absolute;
+  width: 36px;
+  right: -5px;
+  top: 2px;
+  cursor: pointer;
+  height:30px;
+}
+.btn_close3,.btn_close6 {
+  position: absolute;
+  width: 36px;
+  right: -5px;
+  top: 2px;
+  cursor: pointer;
+  height:30px;
+}
+.btn_close4 {
+  position: absolute;
+  width: 36px;
+  right: -5px;
+  top: 2px;
+  cursor: pointer;
+  height:30px;
+}
+.btn_close_job_free {
+  position: absolute;
+  width: 36px;
+  right: -5px;
+  top: 2px;
+  cursor: pointer;
+  height:30px;
+}
+.block-img-close {
+  background: url("https://cdn.timviecnhanh.com/asset/home/img/ho-so/button_close_pop.png") no-repeat;
+  width: 34px;
+  height: 34px;
+  display: inline-block;
+  top: -11px;
+  margin-right: 8px;
+  margin-left: 10px;
+  position: relative;
+  content: '';
+}
+.m-0-auto{
+margin:0 auto;
+}
+.hiden{
+display:none;
+}
+.show{
+display:block;
+}
+.w253-inline {
+  display:inline-block;
+}
+.w500 {
+width:500px;
+}
+.group-right .style-button {
+margin-bottom:0px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 30%;
+  position: relative;
+  transition: all 5s ease-in-out;
+}
+
+.popup h2 {
+  margin-top: 0;
+  color: #333;
+  font-family: Tahoma, Arial, sans-serif;
+}
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.popup .close:hover {
+  color: #06D85F;
+}
+.popup .content {
+  max-height: 30%;
+  overflow: auto;
+}
+
+@media screen and (max-width: 700px){
+  .box{
+    width: 70%;
+  }
+  .popup{
+    width: 70%;
+  }
+}
+.with-15 {
+  width:15%;
+}
+.bc-color {
+  background-color:#daeaf5;
+}
+.bc-table {
+  border-spacing: 10px;
+    border-collapse: none;
+  width:100%;
+  border-bottom: 1px solid #b5b5b5 !important;
+}
+.bc-table td{
+  border-top: 1px solid #b5b5b5 !important;
+  border-right: 1px solid #b5b5b5 !important;
+}
+.bc-table tr td:last-child {
+border-right:none !important;
+}
+
+
+/* s06-1 **/
+.title-blockjob-main {
+  margin: 0 0 4px 0;
+  font-size: 12px;
+  font-weight: 600;
+  width: 90%;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.block-manage-job-ntd div{
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.hot-icon {
+  background: url("/asset/img/icn_qc.png") no-repeat;
+  width: 23px;
+  height: 14px;
+  margin: 0 auto;
+  display: inline-block;
+  background-position: 0px -0px;
+  margin-right: 3px;
+}
+.title-blockjob-sub {
+  color: #757575;
+  margin: 0;
+  font-size: 12px;
+  font-weight: 400;
+  text-overflow: ellipsis;
+  width: 92%;
+  white-space: nowrap;
+  overflow: hidden;
+  height: 21px;
+}
+a .title-blockjob-sub:hover {
+  text-decoration: underline;
+}
+.pb12 {
+  padding-bottom: 12px;
+}
+.block-manage-job-ntd .col-xs-6 {
+  font-size: 12px;
+  padding: 0px;
+}
+/*.icon-sprite-small {
+  background: url("https://cdn.timviecnhanh.com/asset/home/img/sprite_icn_small.png") no-repeat !important;
+  width: 20px;
+  height: 20px;
+  display: inline-table;
+  background-size: 200px auto;
+  position: relative;
+  top: 5px;
+  margin-right: 4px;
+}*/
+.icon-add {
+  background-position: 0px 0px;
+}
+.icon-year {
+  background-position: -0px -40px;
+}
+.icon-salary {
+  background-position: 0px -20px;
+}
+.icon-time {
+  background-position: 0px -60px;
+}
+.w_50{
+  width:50%;
+  float:left;
+}
+.w_50_2{
+  width:48%;
+  float:left;
+  padding-left:2%
+}
+.mb12{
+  margin-bottom:12px;
+}
+.box_vnb_right{
+  padding:12px;
+}
+.link_more_vnb{
+ font-size:11px;
+ color:#2d82c4;
+}
+.w_48{
+  width:48%;
+  float:left;
+}
+.w_52{
+  width:52%;
+  float:left;
+}
+
+/* page 12M **/
+.bg_sky{
+background-color: #dbebf8;
+}
+.box_orange{
+  padding-top:20px;
+  padding-bottom:20px;
+  color:#f28007;
+  font-size:18px;
+}
+.bg_white{
+  background:white;
+}
+.breaking-mesage-new {
+  border: 2px solid #f28006;
+  margin-right: 10px;
+  margin-left: 10px;
+  overflow: hidden;
+  line-height: normal;
+  padding-top:10px;
+  padding-bottom:10px;
+  color:#f28007;
+}
+
+.box-company-joblist {
+  border: 3px solid #c1def7;
+  margin-right: 10px;
+  margin-left: 10px;
+  line-height: normal;
+  color:#f28007;
+  padding-bottom:10px;
+  margin-bottom:20px;
+  position:relative;
+}
+.w_33{
+  width:33.33333333%!important;
+}
+.box-company-item{
+  padding-top:13px;
+  padding-bottom:13px;
+  position:relative;
+}
+.box-company-item{
+  border-bottom:1px solid #ebebeb;
+  padding-bottom:13px;
+}
+.logo-box-company{
+  border-right:1px solid #ebebeb;
+  padding-left:16px;
+  padding-right:16px;
+}
+.box-company-nitem{
+  padding-left:20px;
+  padding-top:20px;
+}
+.box-company-title{
+  font-size:18px;
+  font-weight:bold;
+}
+.box-company-address{
+  color:#636363;
+  margin-top:3px;
+}
+.box-company-list{
+  padding-left:16px;
+  padding-top:13px;
+  width:720px;
+}
+.title-joblist-company{
+  padding-bottom:5px;
+}
+.link-title-joblist-company{
+  font-size:18px;
+  color:#2d82c4;
+  font-weight:bold;
+}
+.button-chitiet-box{
+  width:196px;
+  border-left:1px solid #ebebeb;
+  margin-top:13px;
+  text-align:center;
+  padding-top:10px;
+  padding-bottom:10px;
+}
+.btn-skynew {
+  background-color: #2d82c4;
+  border-color: #2d82c4;
+  color: #fff;
+  border-radius:3px;
+}
+.btn-skynew:hover {
+  background-color: #206ca7;
+  cursor: pointer;
+  color: #fff!important;
+}
+.item-des-box-company{
+  color:#636363;
+  padding-bottom:5px;
+}
+.comlistall{
+  padding-bottom:1px;
+}
+.box-job-item-company2{
+  border-top:1px solid #ebebeb;
+  margin-top: 10px;
+}
+.icon_call_box{
+  background: url(https://cdn.timviecnhanh.com/asset/home/img/call_2.png);
+  background-repeat: no-repeat;
+  position: relative;
+  display: inline-block;
+  font-style: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  top:5px;
+  margin-right:5px;
+}
+.button-hotline-box{
+  position:absolute;
+  right:-10px;
+  top:-10px;
+  -webkit-box-shadow: 0 2px 3px rgba(0,0,0,.3);
+  -moz-box-shadow: 0 2px 3px rgba(0,0,0,.3);
+  box-shadow: 0 2px 3px rgba(0,0,0,.3);
+}
+.bt_call_box{
+  padding-left:5px;
+  padding-right:5px;
+  border-radius:3px;
+}
+
+
+.btn-left {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  bottom: 0px;
+  width: 5px;
+}
+.btn-right {
+  position: fixed;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  width: 160px;
+}
+
+.icon_menu_s22 {
+    background: url("https://cdn.timviecnhanh.com/asset/home/img/icon_menu_s22_new3.png");
+    background-repeat: no-repeat;
+    position: relative;
+    display: inline-block;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin-right: 8px;
+}
+.icon-tkuv_s22 {
+    background-position: center 0px;
+    top: 7px;
+}
+.icon-tkhoan_s22 {
+    background-position: center -26px;
+    top: 7px;
+}
+.icon-tntd_s22 {
+    background-position: center -52px;
+    top: 7px;
+}
+.icon-dttd_s22 {
+    background-position: center -78px;
+    top: 7px;
+}
+.icon-qltd_s22 {
+    background-position: center -104px;
+    top: 7px;
+}
+.icon-hsdl_s22 {
+    background-position: center -130px;
+    top: 7px;
+}
+.icon-hsdut_s22 {
+    background-position: center -156px;
+    top: 7px;
+}
+.icon-tke_s22 {
+    background-position: center -182px;
+    top: 7px;
+}
+.icon-cover_s22 {
+    background-position: center -208px;
+    top: 7px;
+}
+.icon-logout_s22 {
+    background-position: center -234px;
+    top: 7px;
+}
+.mr_0{
+    margin-right:0px;
+}
+
+.fw400{
+  font-weight:400;
+}
+
+.fw700{
+  font-weight:700;
+}
+
+/* Task #363 */
+.box_filter_s21{
+  background-color: #ebebeb;
+  padding: 10px 10px 10px 15px;
+}
+.text_0d60a1{
+  color:#0d60a1;
+}
+.icon_ghichu{
+  background: url("https://cdn.timviecnhanh.com/asset/home/img/icon_ghichu.png") no-repeat;
+  background-position:0px;
+  width:12px;
+  height:14px;
+  display:block;
+  float:left;
+  margin-right:5px;
+}
+.icheckbox_square-blue2{
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0;
+  padding: 0;
+  border: none;
+  cursor: pointer;
+}
+
+.icheckbox_square-blue2{
+  width: 13px;
+  height: 13px;
+}
+.icheckbox_square-blue2{
+  background: url(/asset/css/checkbox/square/blue_small2.png) no-repeat;
+}
+
+.icheckbox_square-blue2.hover{
+    background-position: -13px 0;
+ }
+.icheckbox_square-blue2.checked{
+        background-position: -26px 0;
+}
+.icheckbox_square-blue2.disabled{
+        background-position: -39px 0;
+        cursor: default;
+}
+.icheckbox_square-blue2.checked.disabled{
+    background-position: -52px 0;
+}
+
+.check_list_s21{
+  vertical-align: middle;
+}
+.mb_0{
+  margin-bottom:0px;
+}
+.w_25{
+  float:left;
+  width:25%;
+}
+.btn-s21 {
+  font-family: arial;
+  cursor: pointer;
+  border-radius: 4px;
+  height: 28px;
+  border: none;
+  font-size: 14px;
+  display: inline-block;
+  line-height: 28px;
+  font-size:14px;
+  padding-left:0px;
+  padding-right:0px;
+}
+.btn-s21-636363{
+  background:#636363;
+}
+.icon-delete-s21 {
+  background: url(https://cdn.timviecnhanh.com/asset/home/img/icon_delete_s21.png);
+  background-repeat: no-repeat;
+  position: relative;
+  display: inline-block;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width:12px;
+  height:12px;
+}
+
+.table_s21 td{
+  padding:10px;
+  border: 1px solid #e1e1e1;
+}
+
+.table_s21 .border_r0{
+  border-right:0px;
+}
+
+.table_s21 .border_l0{
+  border-left:0px;
+  padding-left:0px;
+}
+.viewall .fa.fa-ghichu {
+  background-image: url(https://cdn.timviecnhanh.com/asset/home/img/icon_ghichu_new.png);
+  background-position: 0px 0px;
+  height: 18px;
+  width: 18px;
+  position: absolute;
+  left: 32px;
+  top: 8px;
+}
+.viewall:hover .fa.fa-ghichu {
+  background-image: url(https://cdn.timviecnhanh.com/asset/home/img/icon_ghichu_new_hover.png);
+  background-position: 0px 0px;
+  height: 18px;
+  width: 18px;
+}
+
+.viewall .fa.fa-danhdau {
+  background-image: url(https://cdn.timviecnhanh.com/asset/home/img/icon_danhdau.png);
+  background-position: 0px 0px;
+  height: 18px;
+  width: 18px;
+  position: absolute;
+  left: 24px;
+  top: 8px;
+}
+.viewall:hover .fa.fa-danhdau {
+  background-image: url(https://cdn.timviecnhanh.com/asset/home/img/icon_danhdau_hover.png);
+  background-position: 0px 0px;
+  height: 18px;
+  width: 18px;
+}
+
+.button_s21{
+  padding:6px !important;
+  width: 118px;
+  font-size:16px;
+  text-transform: none;
+  font-weight:bold;
+  position: relative;
+  padding-left: 26px !important;
+  padding-right: 0px !important;
+}
+
+.button_s21_2{
+  color:#636363;
+  padding:6px !important;
+  width: 118px;
+  font-size:16px;
+  text-transform: none;
+  font-weight:bold;
+  position: relative;
+  padding-left: 26px !important;
+  padding-right: 0px !important;
+}
+.title_ellipsis{
+  text-overflow: ellipsis;
+  width: 98%;
+  white-space: nowrap;
+  overflow: hidden;
+  max-width:120px;
+}
+
+
+/* task 379 */
+.icon-callcenter-new{
+    background: url(https://cdn.timviecnhanh.com/asset/home/img/icon_call_hotline.png);
+    background-repeat: no-repeat;
+    position: relative;
+    display: inline-block;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  width:20px;
+  height:20px;
+  top: 6px;
+    right: 6px;
+}
+
+.icon-danhdau-s13{
+    background: url(https://cdn.timviecnhanh.com/asset/home/img/icon_danhdau_s13.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    display: inline-block;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  width:24px;
+  height:19px;
+  top: 6px;
+}
+
+.box_giaiphap_s13{
+  background:#e1f3fd;
+  padding:10px;
+  border-radius:2px;
+}
+
+.box_giaiphap_s13 .box-noibat {
+    border: 2px solid #8ecef7;
+  background:#FFFFFF;
+  padding: 14px 18px;
+  padding-top:20px;
+}
+
+.w_100{
+  width:100%;
+}
+.list_noibat_s13{
+  position:relative;
+  margin-bottom:15px;
+}
+.text_list_s13{
+  padding-left:30px;
+  line-height: 20px;
+}
+
+.box_giaiphap_s13 .btn {
+    height: 42px;
+    line-height: 18px;
+    font-size: 14px;
+    width: 198px;
+    display: block;
+    float: left;
+    font-weight: 700;
+    border-radius: 3px;
+  padding-top:8px;
+}
+.p-t-7{
+  padding-top:7px;
+}
+.m-l-18{
+  margin-left:18px;
+}
+.box_giaiphap_s13 .bt_s13_line{
+  padding-top:16px;
+  height:34px;
+}
+.box_giaiphap_s13 .btn-danger-border{
+  border-radius:3px;
+  border:2px solid #FF4000;
+  padding-top:16px;
+  height:30px;
+  color:red;
+  width:194px;
+}
+.box_giaiphap_s13 .btn-danger-border:hover{
+  background:#bd0000;
+  border:2px solid #bd0000;
+  color:white !important;
+}
+.box_giaiphap_s13 .content_list_s13{
+  height:166px;
+}
+.box_giaiphap_s13 .block-sidebar{
+  border:none;
+}
+.box_giaiphap_s13 .title-sidebar{
+  color: #2d82c4;
+  font-size:18px;
+}
+.box_giaiphap_s13 .block-sidebar .content-search-advance {
+    padding: 6px 10px 0;
+}
+.box_giaiphap_s13 .block-sidebar .select-style .select2-choice {
+    height: 38px;
+    line-height: 38px;
+}
+.box_giaiphap_s13 .input-style {
+    margin-bottom: 10px;
+    height: 28px;
+  padding: 6px;
+}
+.box_giaiphap_s13 .select2-container .select2-choice .select2-arrow b {
+    background: url(https://cdn.timviecnhanh.com/asset/home/img/icon_droplist_s13.png) no-repeat scroll 0 1px;
+    display: block;
+    background-position: left center;
+}
+.box_giaiphap_s13 .select2-container .select2-choice {
+    border-radius: 0px;
+}
+.box_giaiphap_s13 .block-sidebar {
+    margin-top: 0px;
+}
+.box_giaiphap_s13.vuong{
+  border-radius:0px;
+}
+.list_noibat_s13.themb2 {
+    position: relative;
+    margin-bottom: 19px;
+}
+.icon_search_s17{
+    background: url(https://cdn.timviecnhanh.com/asset/home/img/icon_search_s17.png);
+    background-repeat: no-repeat;
+    background-repeat: no-repeat;
+    position: relative;
+    display: inline-block;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    width: 14px;
+    height: 13px;
+    top: 3px;
+}
+
+.hsuv_phuhop{
+    font-style: italic;
+    color: #2d82c4;
+}
+
+
+.list-post-has-thumbnail img {
+    max-height: 60px;
+    max-width: 140px;
+}
+
+.frame-th-list {
+    border: 0px;
+}
+
+.box-tp {
+    color: #2d82c4;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+.icon-minisite_s22-sm {
+    background: url(https://cdn.timviecnhanh.com/asset/home/img/icon-s22-minisite-sm.png);
+    background-position: 0px 11px;
+    background-repeat: no-repeat;
+    background-repeat: no-repeat;
+    top: 3px;
+}
+
+.icon-banner_s22-sm {
+    background: url(https://cdn.timviecnhanh.com/asset/home/img/icon_s22_banner-sm.png);
+    background-position: 0px 11px;
+    background-repeat: no-repeat;
+    background-repeat: no-repeat;
+    top: 3px;
+}
+
+.icon-minisite_s22 {
+    background: url(https://cdn.timviecnhanh.com/asset/home/img/icon-s22-minisite.png);
+    background-position: center 8px;
+    background-repeat: no-repeat;
+    background-repeat: no-repeat;
+    position: relative;
+    display: inline-block;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    top: 3px;
+}
+
+.icon-banner_s22 {
+    background: url(https://cdn.timviecnhanh.com/asset/home/img/icon_s22_banner.png);
+    background-position: center 8px;
+    background-repeat: no-repeat;
+    background-repeat: no-repeat;
+    position: relative;
+    display: inline-block;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    top: 3px;
+}
+
+.small-flash-att {
+    position: relative;
+    display: inline-block;
+    background: url(https://cdn.timviecnhanh.com/asset/home/img/ghim1.jpg);
+    background-repeat: no-repeat;
+    width: 12px;
+    height: 12px;
+}
+
+.footer_popup_nophoso{
+  background:#f5f5f5;
+  border-top:1px solid #e0e0e0;
+  height: 78px;
+}
+
+/* fix with for slider*/
+.with_active_1{
+    width: 598px !important;
+}
+.with_active_1 > a {
+    width: 598px !important;
+}
+.with_active_1 > a:hover {
+    width: 598px !important;
+}
+
+.with_active_2 {
+    width: 299px !important;
+}
+.with_active_2 > a {
+    width: 299px !important;
+}
+.with_active_2 > a:hover {
+    width: 299px !important;
+}
+
+.with_active_3 {
+    width: 199.34px !important;
+}
+.with_active_3 > a {
+    width: 199.34px !important;
+}
+.with_active_3 > a:hover {
+    width: 199.34px !important;
+}
+
+.with_active_4 {
+    width: 149.5px !important;
+}
+.with_active_4 > a {
+    width: 149.5px !important;
+}
+.with_active_4 > a:hover {
+    width: 149.5px !important;
+}
+
+.with_active_5 {
+    width: 119.6px !important;
+}
+.with_active_5 > a {
+    width: 119.6px !important;
+}
+.with_active_5 > a:hover {
+    width: 119.6px !important;
+}
+.bx-pager_new {
+    height: 68px;
+    margin-top: -10px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 630px;
+    z-index: 1;
+}
+.tab--active--1:after{
+    left: 304px;
+}
+.tab--active--2:after{
+    left: 147px;
+}
+.tab--active--3:after{
+    left: 95px;
+}
+.tab--active--4:after{
+    left: 68.5px;
+}
+.tab--active--5:after{
+    left: 53px;
+}
+/* fix with for slider*/
+
+
+/*#resume-file {
+  font-size: 10000px;
+}*/
+
+.icon-success_new {
+  background-image: url(https://cdn.timviecnhanh.com/asset/home/img/icon_success_new.png);
+  background-position: 0px 0px;
+  height: 22px;
+  width: 22px;
+  top: 6px;
+  left:-4px;
+}
+.icon-success_new_sm {
+  background-image: url(https://cdn.timviecnhanh.com/asset/home/img/icon_success_new.png);
+  background-position: 0px 0px;
+  background-size: 15px;
+  height: 17px;
+  width: 15px;
+  top: 6px;
+  left: -4px;
+}
+.text_green_new{
+  color:#4caf50;
+  text-transform:uppercase;
+}
+.bt_big_new{
+  height:48px;
+  font-size:18px;
+}
+.footer_popup_success{
+  margin:15px;
+  margin-top:30px;
+  border-top:1px solid #eeeeee;
+  padding-top:15px;
+  line-height: 22px;
+}
+
+/*Task #829*/
+.info_banner  .slick-dots, .info_banner_3 .slick-dots{
+    bottom:-40px;
+}
+.pl0{
+    padding-left: 0px !important;
+}
+.pl8{
+    padding-left: 8px !important;
+}
+.pr0{
+    padding-right: 0px !important;
+}
+.pr8{
+    padding-right: 8px !important;
+}
+.mt26{
+    margin-top: 26px !important;
+}
+.ml-4{
+    margin-left: -4px !important;
+}
+.mb16{
+    margin-bottom: 16px !important;
+}
+.block-rightbar {
+    border: 1px solid #e1e1e1;
+    margin-top: 10px;
+}
+.block-rightbar .content-sidebar{
+    padding:10px;
+}
+.font13{
+    font-size:13px;
+}
+.font14{
+    font-size:14px;
+}
+.font100{
+    font-size:100%;
+}
+/*Task #829*/
+
+/*Task 852*/
+.mt20{
+    margin-top: 20px !important;
+}
+.ml16{
+    margin-left: 16px !important;
+}
+.mb30{
+    margin-bottom: 30px !important;
+}
+
+.job_favo_box{
+    width: 618px;
+    border-top: 3px solid #2d82c4;
+    border-left: 1px solid #e1e1e1;
+    border-right: 1px solid #e1e1e1;
+    border-bottom: 1px solid #e1e1e1;
+    padding: 20px 30px 14px 30px;
+    margin-right: 16px !important;
+}
+.title_favo_co{
+    font-size: 16px;
+    font-weight: bold;
+    color: #363636;
+    line-height: 24px;
+}
+.content_favo_co{
+    font-size: 14px;
+    font-weight: 500;
+    color: #7d7d7d;
+    line-height: 22px;
+}
+.hr_box{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 12px;
+    margin-bottom: 16px;
+    border: 0;
+    border-top: 1px solid #e0e0e0;
+}
+.ml20{
+    margin-left: 20px !important;
+}
+.mr20{
+    margin-right: 20px !important;
+}
+.text_col-salary{
+    font-size: 12px;
+    font-weight: 500;
+    color: #424242;
+}
+.mb6{
+    margin-bottom: 6px !important;
+}
+.icon-add_sm {
+    background-position: 0px 0px;
+}
+.icon-salary_sm {
+    background-position: -4px -20px;
+    width: 16px !important;
+    margin-right: 2px !important;
+}
+.icon-time_sm {
+    background-position: 0px -60px;
+}
+.info_banner  .slick-dots, .info_banner_3 .slick-dots{
+    bottom:-40px;
+}
+.job_favo_box .col_mucluong{
+    width:31%;
+    float:left;
+}
+.job_favo_box .col_diadiem{
+    width:38%;
+    float:left;
+}
+.job_favo_box .col_hannop{
+    width:31%;
+    float:left;
+}
+.block-rightbar {
+    border: 1px solid #e1e1e1;
+    margin-top: 10px;
+}
+.block-rightbar .content-sidebar{
+    padding:10px;
+}
+/*Task 852*/
+
+/* Task #866 */
+.box_text_choise{
+  margin: 26px 32px;
+  margin-bottom:15px;
+  text-align:center;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  background-color: #fff;
+  border: solid 2px #ccc;
+  position:relative;
+  line-height:16px;
+  padding:12px;
+}
+.box_text_choise:before {
+    content: "";
+    position: absolute;
+    bottom: -12px;
+    left: 254px;
+    border-width: 10px 8px 0;
+    border-style: solid;
+    border-color: #ccc transparent;
+    display: block;
+    width: 0;
+}
+.box_text_choise:after {
+    content: "";
+    position: absolute;
+    bottom: -9px;
+    left: 255px;
+    border-width: 9px 7px 0;
+    border-style: solid;
+    border-color: #fff transparent;
+    display: block;
+    width: 0;
+}
+.box_bt_popup_htkhs{
+  margin: 0 auto;
+  width:445px;
+}
+.box_bt_popup_htkhs img{
+  padding-top:30px;
+  padding-bottom:24px;
+}
+.box_bt_popup_htkhs span.note{
+  line-height:16px;
+}
+.m-r-30{
+  margin-right:30px !important;
+}
+.m-l-30{
+  margin-left:30px !important;
+}
+.p-l-30{
+  padding-left:30px !important;
+}
+.p-r-30{
+  padding-right:30px !important;
+}
+/* Task #866 */
+
+/*Task #1027*/
+.mr6 {
+    margin-right: 6px !important;
+}
+/*Task #1027 end*/
+
+
+/*Task #1028*/
+
+.logo-box-company img {
+  width: 176px;
+}
+
+/*Task #1068*/
+.breaking-news-center{
+    background:#fcdf5d;
+    height:36px;
+    margin-bottom:20px;
+    margin-top:20px;
+}
+.icon-breaking-left{
+    background: url("https://cdn.timviecnhanh.com/asset/home/img/border_left_silk.png");
+    background-repeat: no-repeat;
+    position: relative;
+    display: inline-block;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    width:21px;
+    height:36px;
+}
+.icon-breaking-right{
+    background: url("https://cdn.timviecnhanh.com/asset/home/img/border_right_silk.png");
+    background-repeat: no-repeat;
+    position: relative;
+    display: inline-block;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    width:21px;
+    height:36px;
+}
+.text-breaking-center{
+    width: 860px;
+    text-align: center;
+    height: 36px;
+    line-height: 36px;
+}
+.text-red{
+    color:#ff0000;
+}
+/*Task #1068 end*/
+
+.center {
+  text-align: center;
+}
+
+.mr16 {
+    margin-right: 16px !important;
+}
+
+/*#1136*/
+.popup-tcv{
+  background-color: #F6F6F6;
+  border-radius: 0px;
+  border-color: #D7D7D7;
+  padding: 10px 3px 0px 10px;
+  border-style: solid;
+  border-width: 1px;
+  -webkit-box-shadow: 0 0px 1px rgba(0,0,0,.3);
+  -moz-box-shadow: 0 0px 1px rgba(0,0,0,.3);
+  box-shadow: 0 0px 1px rgba(0,0,0,.3);
+  margin-top: 15px;
+  margin-right: 10px;
+  margin-bottom: 15px;
+}
+.fileUpload {
+    position: relative;
+    overflow: hidden;
+    /*margin: 10px;*/
+    cursor: pointer;
+}
+.fileUpload input.upload {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+  width: 95px;
+    padding: 0;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+.btn-upload{
+  background-color: #636363;
+  width: 95px;
+  color: #fff;
+  border-radius: 2px;
+  padding: 7px;
+}
+.subline_section {
+    width: auto;
+    height: 1px;
+    background-color: #f6f6f6;
+    margin: 10px auto;
+  -webkit-box-shadow: 0 0px 1px rgba(0,0,0,.1);
+  -moz-box-shadow: 0 0px 1px rgba(0,0,0,.1);
+  box-shadow: 0 0px 1px rgba(0,0,0,.1);
+  border-top: 2px;
+  border-right: 0;
+  border-bottom: 0;
+  border-left: 0;
+}
+
+.btn-save{
+  width: 110px;
+  height: 40px;
+  vertical-align: middle;
+  border-style: none;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: bold;
+}
+.btn-no{
+  width: 110px;
+  height: 40px;
+  vertical-align: middle;
+  background-color: #9E9E9E;
+  border-style: none;
+  border-radius: 3px;
+  margin-left: 20px;
+  color: #fff;
+  font-weight: bold;
+}
+.btn-no:hover{
+  background-color: #636363;
+  color: #fff;
+  font-weight: bold;
+}
+.green{
+  color: #4ACF50;
+}
+.mt-15{
+  margin-top: -15px;
+}
+/*#1136 end*/
+/* css for new popup */
+#overlay_popup_new, #popup_component_new {
+  z-index: 10000;
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  background: rgba(0,0,0,0.3);
+  display: none;
+  -ms-flex-pack: center;
+  -ms-flex-align: center;
+  -moz-box-pack: center;
+  -moz-box-align: center;
+  -webkit-box-pack: center;
+  -webkit-box-align: center;
+  box-pack: center;
+  box-align: center;
+  height:auto;
+}
+#pos_popup_new {
+  width: 100%;
+  position: absolute;
+}
+#popup_content_new {
+  z-index: 101;
+  width: 530px;
+  height: 135px;
+  text-align: left;
+  color: #424242;
+  position: relative;
+  background: white;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  padding-top: 5px;
+  margin: 0 auto!important;
+  border: 3px;
+}
+.btn_close {
+  position: absolute;
+  width: 36px;
+  right: -5px;
+  top: 2px;
+  cursor: pointer;
+  height:30px;
+}
+.block-img-close_new{
+  background: url("https://cdn.timviecnhanh.com/asset/home/img/close_btn_popup.png") no-repeat;
+  width: 34px;
+  height: 34px;
+  display: inline-block;
+  top: -11px;
+  margin-right: 8px;
+  margin-left: 10px;
+  position: relative;
+  content: '';
+}
+
+.btn-close2 {
+    cursor: pointer;
+    color: #95979c;
+}
+.btn-close2 {
+    right: -12px;
+    top: -12px;
+}
+.btn-close2 {
+    top: -35px;
+    right: -35px;
+    left: inherit;
+}
+.btn-close2:hover {
+    color: #2b2e38;
+}
+.btn-close2 {
+    background: #e03811;
+    border-radius: 50%;
+}
+.btn-close2{
+    background: #fb8c00;
+    border-radius: 50%;
+}
+.btn-close2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    overflow: visible;
+    width: 35px;
+    height: 35px;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    -webkit-transition: color 0.2s;
+    transition: color 0.2s;
+    text-decoration: none;
+    color: #95979c;
+    border: 0;
+    outline: 0;
+    background: transparent;
+}
+.btn-close2::before {
+    border: 2px solid #fff;
+    border-radius: 50%;
+    line-height: 32px;
+}
+.btn-close2::before {
+    color: #fff;
+}
+.btn-close2::before {
+    font-family: Arial, "Helvetica CY", "Nimbus Sans L", sans-serif !important;
+    font-size: 25px;
+    line-height: 35px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 35px;
+    content: "\00d7";
+    text-align: center;
+}
+*::before, *::after {
+    box-sizing: border-box;
+}
+.regis_common_line_break {
+    border-bottom: 1px solid #E0E0E0;
+}
+.pl24{
+  padding-left: 24px !important;
+}
+.pr24{
+  padding-right: 24px !important;
+}
+.pt18{
+  padding-top: 18px !important;
+}
+.pb18{
+  padding-bottom: 18px !important;
+}
+.pt17{
+  padding-top: 17px !important;
+}
+.pb14{
+  padding-bottom:  14px !important;
+}
+.mb16{
+  margin-bottom: 16px !important;
+}
+.mb11{
+  margin-bottom: 11px !important;
+}
+.mt-20{
+  margin-top: -20px !important;
+}
+.mt16{
+  margin-top: 16px !important;
+}
+.mt11{
+  margin-top: 11px !important;
+}
+.mt-7{
+  margin-top: -7px !important;
+}
+.mt-25{
+  margin-top: -25px;
+}
+.mt-10{
+  margin-top: -10px !important;
+}
+.mb-10{
+  margin-bottom: -10px !important;
+}
+.ml65{
+  margin-left: 65px;
+}
+.ml18{
+  margin-left: 18px !important;
+}
+.popup-tcv_new{
+  background-color: #eeeeee;
+    border-radius: 3px;
+    padding: 12px 12px 22px 12px;
+}
+.btn.btn-lg-slim {
+    border-radius: 2px;
+    font-size: 16px;
+    padding: 0;
+}
+.btn_attachment {
+    padding: 0px;
+    background-color: #0189b9;
+    color: #fff;
+    font-weight: 700;
+    text-align: center;
+    width: 160px;
+    display: inline-block;
+    border-radius: 5px;
+}
+.uppercase {
+    text-transform: uppercase;
+}
+.btn_attachment:hover, .btn_attachment:focus{
+  color: #fff !important;
+  background-color: #00739c;
+}
+.btn.btn-xt {
+  background: #fb8c00;
+    color: #fff;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.3);
+    transition: all 0s ease 0s, all 0.3s ease 0s, all 0s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+    font-size: 16px;
+    padding: 0;
+    font-weight: 600;
+    line-height: 46px;
+}
+.btn.btn-lg-slim {
+    border-radius: 2px;
+    font-size: 18px;
+    padding: 0;
+}
+.btn.btn-lg-slim {
+    padding: 11px 16px 10px;
+    border-radius: 3px;
+    height: 25px;
+}
+.btn:hover, .btn:focus, .btn.focus {
+    color: #fff;
+    text-decoration: none;
+}
+.btn.btn-xt:hover {
+    background: #fb8c01;
+  color: #fff !important;
+}
+.w215 {
+    width: 215px;
+}
+.btn-mo:hover .btn-tblet:hovrer{
+  color: #fff !important;
+}
+.btn-mo{
+  color: #fff !important;
+}
+.block_reg_footer_common {
+    background-color: #EEE;
+    display: block;
+}
+.block_reg_footer_common {
+    background-color: #EEE;
+    display: block;
+}
+.txt-color-363636 {
+    color: #363636;
+}
+.footer_regis_common {
+    line-height: 24px;
+    padding: 10px 16px 0px;
+}
+.fs14 {
+    font-size: 14px !important;
+}
+.fs14 {
+    font-size: 14px;
+}
+.pb16 {
+    padding-bottom: 16px;
+}
+.pt16 {
+    padding-top: 16px;
+}
+.ml-35{
+  margin-left: -35px;
+}
+.mr20{
+  margin-right: 20px;
+}
+.box_nophs, .nop_chonhs {
+    text-align: left;
+}
+.txt-color-363636{
+  color: #363636;
+}
+.btn-nop-hs{
+  border-radius: 5px !important;
+  height: 40px !important;
+}
+.w565{
+  width: 565px;
+}
+#op1 span{
+  display:flex;
+    align-items:stretch;
+}
+.hs_block{
+  border: 2px solid #e0e0e0;
+  border-radius: 3px;
+  padding: 5px 15px 15px 15px;
+  line-height: 28px !important;
+}
+.icon-attach-v2 {
+    background-position: -72px -48px !important;
+    left: 0px;
+    margin-right: 0px;
+}
+.icon-sprite-24 {
+    background: url("https://cdn.timviecnhanh.com/asset/home/img/spires_line_24.png") no-repeat;
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    position: relative;
+    margin-right: 8px;
+    vertical-align: middle !important;
+}
+.icon-date-v2 {
+    background-position: -144px -48px;
+    left: 0px;
+    margin-right: 0px;
+}
+.icon-view-v2 {
+    background-position: -120px -48px;
+    left: 0px;
+    margin-right: 0px;
+}
+.bt2-close {
+    position: absolute;
+     right: -12px;
+    top: -12px;
+    display: block;
+    overflow: visible;
+    width: 35px;
+    height: 34px;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    -webkit-transition: color 0.2s;
+    transition: color 0.2s;
+    text-decoration: none;
+    color: #95979c;
+    border: 0;
+    outline: 0;
+    background: transparent;
+  background: #e03811;
+  border-radius: 50%;
+}
+
+.bt2-close::before {
+    border: 2px solid #fff;
+    border-radius: 50%;
+    line-height: 32px;
+}
+.bt2-close::before {
+    color: #fff;
+}
+.bt2-close:before {
+    font-family: Arial, "Helvetica CY", "Nimbus Sans L", sans-serif !important;
+    font-size: 25px;
+    line-height: 31px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 35px;
+    content: "\00d7";
+    text-align: center;
+}
+.fileUpload input.upload2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    line-height: 40px;
+    width: 160px;
+    padding: 0;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+.flash-att_white{
+  background: url(/asset/img/ho-so/new_xicon_timviecnhanh.png.pagespeed.ic.NMCs2bdY-v.png);
+  position: relative;
+  display: inline-block;
+  zoom: 1;
+  top: 4px;
+  background-position: -5px -8px;
+  background-repeat: no-repeat;
+  width: 23px;
+  height: 20px;
+}
+ .regis_common_line_break:first-child {
+  display: none;
+}
+#file_name {
+    padding-bottom: 15px;
+    padding-left: 10px;
+    display: inline-block;
+}
+
+/*#1334*/
+.detail-content table {
+    width: 100%;
+}
+.bold {
+    font-weight: 700;
+}
+
+/*#1111*/
+.box_hoso_mienphi{
+  border:2px solid #eb1b22;
+  margin-bottom:16px;
+}
+.box_hsmp_pink{
+  padding:14px;
+  background:#fbdddd;
+}
+.m-b-20 {
+  margin-bottom:20px!important;
+}
+.green{
+  color: #4ACF50;
+}
+.mt-15{
+  margin-top: -15px;
+}
+.pd-10{
+  padding:10px;
+}
+.p-t-20{
+  padding-top:20px;
+}
+.fs12{
+  font-size:12px;
+}
+/*#1111 end*/
+/* News Banner */
+.item-left-bn, .item-right-bn {
+    max-height: 300px;
+    max-width: 300px;
+    float: left;
+}
+.item-left-bn {
+    padding-right: 20px;
+}
+.box-banner-news {
+    display: block;
+    height: 214px;
+    max-width: 280px;
+    padding: 10px;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+}
+.banner-news-img {
+    float: left;
+}
+.banner_company_text {
+    color: #757575;
+    font-size: 14px;
+    font-weight: 400;
+    max-width: 150px;
+    float: left;
+    margin-top: 5px;
+}
+.ln_hr_banner_news {
+    border-top: 1px solid #e0e0e0;
+    width: 280px;
+    margin-top: 6px;
+}
+.banner_job_text {
+    color: #363636;
+    font-size: 14px;
+    font-weight: 600;
+    max-width: 300px;
+    margin-top: 10px;
+}
+.mb10 {
+    margin-bottom: 10px;
+}
+.btn-news-banner {
+    background: #ff4081 none repeat scroll 0 0;
+    border-radius: 2px;
+    box-shadow: 0 1px 2px 0 rgba(50, 50, 50, 0.27);
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    height: 38px;
+    line-height: 40px;
+    text-align: center;
+    text-decoration: none;
+    width: 280px;
+    margin-top: 8px;
+}
+.btn-news-banner:hover {
+    background: #e91e63 none repeat scroll 0 0;
+    color: #fff !important;
+}
+.uppercase {
+    text-transform: uppercase;
+}
+.kn-cv{
+    float: left;
+    width: 50%;
+}
+.kn-cv1 {
+    float: left;
+    width: 46%;
+}
+.kn-cv2 {
+    float: left;
+    width: 54%;
+}
+.info-ntd-fav-txt {
+    font-size: 14px;
+    line-height: 17px;
+    margin: 0 0 5%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.icon-salary-bn-news {
+    background-position: -29px -784px;
+    float: left;
+    margin-right: 5px;
+    top: 0;
+}
+.icon-location-bn-news {
+    background-position: -4px -784px;
+    float: left;
+    margin-right: 5px;
+    top: 0;
+}
+/* css for new banner */
+.banner_box{
+  width: 296px;
+  height: 145px;
+  background-color: #fff;
+  border-color: #2D82C4;
+  border-width: 2px;
+  border-style: solid;
+}
+.text_cp{
+  color: #898989;
+}
+.btn_banner_new{
+  background-color: #EB1B22;
+    border-radius: 2px;
+    box-shadow: 0 1px 2px 0 rgba(50, 50, 50, 0.27);
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    height: 33px;
+    line-height: 33px;
+    text-align: center;
+    text-decoration: none;
+    width: 150px;
+    margin-top: 2px;
+}
+.ml4{
+  margin-left: 4px;
+}
+.m10{
+  margin: 10px 10px 10px 13px;
+}
+.font12{
+  font-size: 12px !important;
+}
+.font13{
+  font-size: 13px !important;
+}
+.ml23pt{
+  margin-left: 23%;
+}
+.ml-6{
+  margin-left: -6px;
+}
+.pd0{
+  padding: 0px !important;
+}
+.icon-sprite-small2 {
+  background: url("https://cdn.timviecnhanh.com/asset/home/img/sprite_icn_small2.png") no-repeat;
+  width: 20px;
+  height: 20px;
+  display: inline-table;
+  position: relative;
+  top: 0px;
+  float: left;
+  margin-top: -2px;
+}
+.icon-salary-blue{
+  background-position: -20px -20px;
+}
+.icon-vitri-blue{
+  background-position: -20px 0px;
+}
+.logo_banner_tintuc {
+    width: 120px;
+    height:74px;
+    display: block;
+    text-align: center;
+}
+.img_logo_banner_tintuc{
+  max-width: 120px;
+  max-height: 74px;
+  margin:0 auto;
+}
+.button_banner_tintuc{
+  position: absolute;
+  bottom: 20px;
+}
+.button_banner_tintuc2{
+  position: absolute;
+  bottom: 10px;
+}
+.banner_title_company{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-bottom: 8px;
+}
+.banner_job_text.h34 {
+    height: 34px;
+}
+
+#employer-viewall, #employer-hideall{
+    color: blue;
+}
+#employer-viewall a {
+  color: blue;
+}
+.line-height-15 {
+  line-height: 1.5;
+}
+.line-height-20 {
+  line-height: 24px;
+  background-position: left 12px !important;
+}
+.line-height-20 a {
+  font-weight: normal !important;
+  font-size: 12px;
+  padding-bottom: 5px;
+  text-transform: capitalize;
+}
+
+.line-height-28 {
+  line-height: 28px;
+}
+.detail-content table td.a1 {
+    border-top: none;
+    border-right: none;
+}
+.box_bt_htkhs{
+  width: 100%;
+  height: 290px;
+}
+
+form#frm-hoso {
+    border: 1px solid #E0E0E0;
+}
+.form-resume {
+  border: 1px solid #E0E0E0;
+}
+.btn-applied-yes {
+    background-color: #2d82c4;
+    height: 40px;
+    width: 80px;
+    padding-left: 12px;
+    padding-right: 12px;
+    font-size: 12px;
+    display: inline-block;
+    zoom: 1;
+    line-height: 40px;
+    font-weight: 700;
+    font-family: arial;
+    cursor: pointer;
+    background-color: #2d82c3;
+    border-color: #357ebd;
+    color: #fff;
+    border-radius: 3px;
+    margin-right: 20px;
+}
+a .btn-applied-yes:hover{
+    color: #fff;
+}
+
+.btn-applied-no {
+    height: 40px;
+    width: 80px;
+    padding-left: 12px;
+    padding-right: 12px;
+    font-size: 12px;
+    display: inline-block;
+    zoom: 1;
+    line-height: 40px;
+    font-weight: 700;
+    font-family: arial;
+    cursor: pointer;
+    background-color: #9E9E9E;
+    border-color: #9E9E9E;
+    color: #fff;
+    border-radius: 3px;
+}
+.mg-left{
+    margin-left: 10px;
+}
+
+span.icon_88 img {
+    width: 30px;
+    position: absolute;
+    margin: 7px 0 0 25px;
+}
+.mt20 {
+    margin-top: 20px !important;
+}
+.font14 {
+    font-size: 14px;
+}
+.mb_15 {
+    margin-bottom: 15px;
+}
+.bolder {
+    font-weight: 700;
+}
+.underline {
+    display: inline;
+    text-decoration: underline;
+}
+.icon-edit-blue {
+    width: 14px;
+    height: 14px;
+    background: url("https://cdn.timviecnhanh.com/asset/home/img/icon-edit-blue.png") no-repeat;
+    display: inline-block;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    white-space: normal;
+    display: inline-block;
+    margin: 0px 3px 0px 10px;
+    position: relative;
+    top: 2px;
+}
+.mb_10 {
+    margin-bottom: 10px;
+}
+.mb_20 {
+    margin-bottom: 20px;
+}
+.box_info .input_email .form-control {
+    height: 40px;
+    width: 93%;
+    padding: 0px 20px;
+}
+.text-ghi {
+  background-color: #eee;
+  border: none;
+}
+.font13 {
+    font-size: 13px !important;
+}
+.mt30 {
+    margin-top: 30px;
+}
+.btn.btn-red {
+    background-color: #eb1b22;
+    color: #fff;
+    padding: 11px 33px;
+    margin-right: 4px;
+    /* margin-bottom: 15px; */
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 4px;
+    font-weight: 700;
+}
+.btn.btn-gray {
+    background-color: #707070;
+    color: #fff;
+    padding: 11px 33px;
+    margin-right: 4px;
+    /* margin-bottom: 15px; */
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 4px;
+    font-weight: 700;
+}
+.btn.btn-xac-thuc {
+    color: #fff;
+    background-color: #eb1b22;
+    border-color: #eb1b22;
+    line-height: 28px;
+    padding: 16px 25px;
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 16px;
+}
+.line {
+    background-color: #d7d7d7;
+    height: 1px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    width: 100%;
+}
+.text-red {
+    color: #ff0000;
+}
+.ft-xacnhan {
+    background: #eeeeee;
+    padding: 15px 10px;
+    color: #000;
+}
+.icon-email {
+    width: 24px;
+    height: 18px;
+    background-position: 0px 0px;
+    background: url("https://cdn.timviecnhanh.com/asset/home/img/email-white.png") no-repeat;
+    display: inline-block;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    white-space: normal;
+    top: 3px;
+    left: -4px;
+    position: relative;
+}
+
+.box-change {
+    background: #fff;
+    border: 1px solid #d7d7d7;
+}
+
+.box-change .form-control {
+    height: 40px;
+    width: 93%;
+    padding: 0px 20px;
+}
+
+.mb33{
+    font-weight: bold;
+    padding: 10px 0 0 0;
+}
+
+.change-emil {
+    width: 500px;
+    padding: 23px 25px;
+}
+
+.mb34{
+    padding: 10px 0 0 0;
+}
+
+
+/* begin: 1477*/
+.box_choise_date{
+  width: 140px;
+  position: relative;
+  float: left;
+  margin-right: 10px;
+  font-size: 14px;
+}
+.box_choise_date label {
+  width: 100%;
+  padding-bottom: 5px;
+  display: block;
+}
+.box_choise_date .input_date {
+  height: 38px;
+  width: 120px;
+  padding: 0 10px;
+  background: transparent;
+  border: 1px solid #999;
+}
+.box_choise_date .icon_calendar {
+  background-position: 0 0px;
+  background-image: url(https://cdn.timviecnhanh.com/asset/home/img/icon_calendar.png);
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  right: 8px;
+  bottom: 12px;
+  z-index: -1;
+}
+.box_choise_date .buttonSearch {
+  margin-top: 22px;
+  font-size: 16px;
+  font-weight: 500;
+}
+.box_point_current{
+  border: 2px solid #2d82c4;
+  border-radius: 3px;
+  float: right;
+  width: 166px;
+  margin-top: -38px;
+  margin-right: -5px;
+  height: 97px;
+}
+.box_point_current .title{
+  background: #2d82c4;
+  text-align: center;
+  color: #fff;
+  font-weight: 500;
+  height: 27px;
+  line-height: 27px;
+  font-size: 13px;
+}
+.box_point_current p{
+  margin-bottom: 5px;
+  font-size: 11px;
+}
+.box_point_current .point_gif{
+  float: left;
+  text-align: center;
+  width: 82px;
+  border-right: 1px solid #ccc;
+  padding-top: 15px;
+  height: 55px;
+}
+.box_point_current .point_buy{
+  float: left;
+  float: left;
+  text-align: center;
+  width: 82px;
+  padding-top: 15px;
+  height: 55px;
+}
+.box_point_current .point_gif .number{
+  font-family: 'Roboto Slab', serif;
+  font-size: 24px;
+  color: #eb1b22;
+  font-weight: 600;
+}
+.box_point_current .point_buy .number{
+  font-family: 'Roboto Slab', serif;
+  font-size: 24px;
+  color: #2d82c4;
+  font-weight: 600;
+}
+.btn-grey-solid {
+    width: 114px;
+    height: 32px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    background-color: #fff;
+    border: solid 1px #e0e0e0;
+    position: relative;
+    display: block;
+    line-height: 32px;
+    float: right;
+    text-align: center;
+}
+.btn-grey-solid .icon-excel {
+  background-position: 0 0px;
+  background-image: url(https://cdn.timviecnhanh.com/asset/home/img/icon_excel.png);
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  top: 8px;
+  left: 8px;
+  display: block;
+}
+.btn-grey-solid .icon-download {
+  background-position: 0 0px;
+  background-image: url(https://cdn.timviecnhanh.com/asset/home/img/icon_download.png);
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  top: 8px;
+  right: 8px;
+  display: block;
+}
+.box_result_search{
+  width: 100%;
+}
+.box_result_search .table_result{
+  width: 100%;
+}
+.box_result_search .table_result{
+  border: 1px solid #eee;
+  border-collapse: collapse;
+}
+.box_result_search .table_result td{
+  padding: 0;
+  color: #757575;
+  text-align: center;
+  padding: 10px;
+  font-size: 12px;
+  border: 1px solid #eee;
+  border-bottom: 0px;
+  border-top: 0px;
+}
+.box_result_search .table_result .title td{
+  padding: 0px;
+}
+.box_result_search .table_result tr:nth-child(even) {background: #f7f7f7}
+.box_result_search .table_result tr:nth-child(odd) {background: #FFF}
+.box_result_search .table_result .title td{
+  font-size: 11px;
+  text-transform: uppercase;
+  border: 1px solid #eee;
+  border-collapse: collapse;
+}
+.box_result_search .table_result .title td p{
+  color: #757575;
+}
+.table_result .title .time_history{
+  width: 99px;
+}
+.table_result .title .number_profile{
+  width: 119px;
+}
+.table_result .title .point_move{
+  width: 129px;
+}
+
+.table_result .title .point_add{
+  width: 165px;
+}
+.table_result .title .point_cur{
+  /*width: 100px;*/
+}
+.height_70{
+  height: 70px;
+}
+.w_35{
+  float: left;
+  width: 35%;
+}
+.pd_top_10{
+  padding-top: 10px;
+}
+/* end: 1477*/
+
+.btn.btn-blue {
+    background-color: #2d82c4;
+    color: #fff;
+    padding: 12px 12px;
+    margin-right: 4px;
+    /* margin-bottom: 15px; */
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 4px;
+    font-weight: 700;
+}
+.btn.btn-blue:hover {
+    color: #fff !important;
+}
+
+button.btn-mobile-confirm {
+    background-color: #fff;
+    border: none;
+}
+
+.icon-smartphone {
+    float: right;
+    height: 65px;
+    margin: -70px 0px;
+    position: relative;
+    width: 65px;
+    background: url("https://cdn.timviecnhanh.com/asset/home/img/smartphone.png") no-repeat;
+}
+
+.btn-create a.btn-create-hs:hover i.icon-smartphone {
+    background: url("https://cdn.timviecnhanh.com/asset/home/img/sp-hover.png") no-repeat;
+    -moz-transition: all linear 0.1s;
+    -o-transition: all linear 0.2s;
+    -ms-transition: all linear 0.2s;
+    -webkit-transition: all linear 0.2s;
+    transition: all linear 0.2s;
+}
+
+.login-register .btn-register-new, .login-register .btn-login-new {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: #f5f5f5;
+    float: left;
+    -moz-transition: all linear 0.1s;
+    -o-transition: all linear 0.1s;
+    -ms-transition: all linear 0.1s;
+    -webkit-transition: all linear 0.1s;
+    transition: all linear 0.1s;
+}
+.login-register .btn-register-new {
+    border-right: 0px solid #f5f5f5;
+}
+.login-register .btn-register-new:hover {
+    border-right: 0px solid #2d82c4;
+    background: #2d82c4;
+}
+.login-register .btn-register-new:hover .icon-register-home {
+    background-position: -69px -92px;
+}
+.login-register .btn-login-new:hover .btn-name, .login-register .btn-register-new:hover .btn-name {
+    color: #ffffff;
+}
+.btn-register-new:hover {
+    box-shadow: 1px 3px 3px 0 #888888;
+}
+.icon-seekers .border-1, .icon-employers .border-1 {
+    margin-top: 0;
+}
+
+.login-register .btn-login-new {
+    border-right: 1px solid #e1e1e1;
+}
+.login-register .btn-login-new:hover {
+    border-right: 0px solid #2d82c4;
+    background: #2d82c4;
+}
+.login-register .btn-login-new:hover .icon-login-home {
+    background-position: -8px -91px;
+}
+.btn-login-new:hover {
+    box-shadow: -2px 4px 5px -2px #888888;
+}
+.border-2 {
+    height: 326px;
+}
+.icon-seekers .images, .icon-employers .images {
+    height: 220px;
+}
+
+.icon-register-home-1 {
+    float: right;
+    height: 56px;
+    margin: -67px 16px;
+    position: relative;
+    width: 59px;
+    background-image: url("https://cdn.timviecnhanh.com/asset/home/img/ICON-DK.png");
+}
+
+.btn-create-hsm a.btn-create-hs:hover i.icon-register-home-1 {
+    -moz-transition: all linear 0.1s;
+    -o-transition: all linear 0.2s;
+    -ms-transition: all linear 0.2s;
+    -webkit-transition: all linear 0.2s;
+    transition: all linear 0.2s;
+    float: right;
+    height: 56px;
+    margin: -67px 16px;
+    position: relative;
+    width: 59px;
+    background-image: url("https://cdn.timviecnhanh.com/asset/home/img/ICON-DK_white.png");
+}
+
+.icon-login-home-1 {
+    float: right;
+    height: 56px;
+    margin: -36px 22px;
+    position: relative;
+    width: 59px;
+    background-image: url("https://cdn.timviecnhanh.com/asset/home/img/ICON-DN.png");
+}
+
+.btn-create-hsm a.btn-create-hs:hover i.icon-login-home-1 {
+    -moz-transition: all linear 0.1s;
+    -o-transition: all linear 0.2s;
+    -ms-transition: all linear 0.2s;
+    -webkit-transition: all linear 0.2s;
+    transition: all linear 0.2s;
+    float: right;
+    height: 56px;
+    margin: -36px 22px;
+    position: relative;
+    width: 59px;
+    background-image: url("https://cdn.timviecnhanh.com/asset/home/img/ICON-DN_white.png");
+}
+
+.btn-create .btn-create-hs .txt-dn {
+    display: block;
+    font-size: 28px;
+    line-height: 20px;
+    margin: 40px 0px 0 21px;
+    color: #2d82c4;
+    font-weight: bold;
+}
+
+.menu-header li{
+    position: relative;
+}
+.menu-header li.active:before, .menu-header li:hover:before {
+    position: absolute;
+    top: -8px;
+    display: block;
+    content: "";
+    width: 0;
+    border-width: 8px;
+    border-style: solid;
+    border-color: #fff transparent transparent;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+
+.width-200 {
+  width:200px;
+  padding-top: 15px;
+  float: left;
+}
+
+.btn-gray-hs {
+    background: #757575;
+    color: #FFFFFF;
+}
+.btn-gray-hs:hover,.btn-gray-hs:focus {
+    color: #FFFFFF !important;
+}
+
+/* #1733 */
+.clear {
+    clear: both;
+}
+
+.h22 {
+    height: 22px!important;
+}
+.hr_header {
+    position: relative;
+    height: 25px;
+    margin: 15px 0;
+}
+.hr_header .hr {
+    border-top: 1px solid #e0e0e0;
+    position: absolute;
+    top: 12px;
+    z-index: 9;
+    content: " ";
+    width: 100%;
+}
+.hr_header .title {
+    position: absolute;
+    z-index: 9;
+    width: 100%;
+    text-align: center;
+}
+.hr_header .title span {
+    background: #eeeeee;
+    padding: 0px 8px;
+    line-height: 25px;
+    font-size: 16px;
+}
+.bg-white {
+    background: #FFFFFF!important;
+}
+
+.mb_22 {
+    margin-bottom: 22px !important;
+}
+.mt_10 {
+    margin-top: 10px !important;
+}
+.txc {
+    text-align: center;
+}
+.reg_fb {
+    background: url("https://cdn.timviecnhanh.com/asset/home/img/reg_fb.png") no-repeat;
+    width: 215px;
+    display: inline-block;
+    height: 41px;
+}
+.reg_fb:hover {
+    background: url("https://cdn.timviecnhanh.com/asset/home/img/reg_fb_hover.png") no-repeat;
+    width: 215px;
+    display: inline-block;
+    height: 41px;
+}
+.mr16 {
+    margin-right: 16px;
+}
+.reg_google {
+    background: url("https://cdn.timviecnhanh.com/asset/home/img/reg_google.png") no-repeat;
+    width: 215px;
+    height: 41px;
+    display: inline-block;
+}
+.reg_google:hover {
+    background: url("https://cdn.timviecnhanh.com/asset/home/img/reg_google_hover.png") no-repeat;
+    width: 215px;
+    height: 41px;
+    display: inline-block;
+}
+
+.clear {
+  clear: both;
+}
+
+.h22 {
+    height: 22px!important;
+}
+.hr_header {
+    position: relative;
+    height: 25px;
+    margin: 15px 0;
+}
+.hr_header .hr {
+    border-top: 1px solid #e0e0e0;
+    position: absolute;
+    top: 12px;
+    z-index: 9;
+    content: " ";
+    width: 100%;
+}
+.hr_header .title {
+    position: absolute;
+    z-index: 9;
+    width: 100%;
+    text-align: center;
+}
+.hr_header .title span {
+    background: #eeeeee;
+    padding: 0px 8px;
+    line-height: 25px;
+    font-size: 16px;
+}
+.bg-white {
+    background: #FFFFFF!important;
+}
+
+.mb_22 {
+    margin-bottom: 22px !important;
+}
+.mt_10 {
+    margin-top: 10px !important;
+}
+.txc {
+    text-align: center;
+}
+
+.btn-social-fb-login {
+    width: 198px;
+}
+.btn-social-fb {
+    background-color: #3b5998;
+    color: #fff;
+    display: block;
+    font-size: 12px;
+    font-weight: 500;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    padding: 0;
+    float: left;
+    margin-right: 8px;
+}
+.btn-social-gg-login {
+    width: 198px;
+}
+.btn-social-gg {
+    background-color: #dd4b39;
+    color: #fff;
+    display: block;
+    font-size: 12px;
+    font-weight: 500;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    padding: 0;
+    float: left;
+}
+.display_table {
+    display: table;
+}
+
+.icn_social_fb {
+    background: url("https://cdn.timviecnhanh.com/asset/home/img/sprites_24.png");
+    background-position: -75px -228px;
+    height: 25px;
+    right: 2px;
+    top: 7px;
+    width: 25px;
+}
+.icon_24 {
+    background-repeat: no-repeat;
+    position: relative;
+    display: inline-block;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    white-space: normal;
+}
+.icn_social_gg {
+    background: url("https://cdn.timviecnhanh.com/asset/home/img/sprites_24.png");
+    background-position: -44px -228px;
+    height: 25px;
+    right: 4px;
+    top: 7px;
+    width: 25px;
+}
+.btn-social-fb-login:hover {
+    color: #fff !important;
+    background-color: #2e4586;
+}
+.btn-social-gg-login:hover {
+    color: #fff !important;
+    background-color: #b82222;
+}
+.body-home-ntd .question-answer{
+    background: #f5f5f5;
+    padding-bottom: 30px;
+}
+.body-home-ntd .box_cauhoi{
+    /*width: 640px;*/
+    margin: 0 auto;
+}
+.body-home-ntd .open_cauhoi {
+    cursor: pointer;
+    height: 48px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    background-color: #fff;
+    border: 1px solid #eee;
+    width: 100%;
+    line-height: 48px;
+    font-size: 14px;
+    color: #424242;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.body-home-ntd .open_cauhoi span{
+    padding-left: 24px;
+}
+.body-home-ntd .chitiet_cauhoi p{
+    padding-left: 24px;
+    margin:0;
+}
+.body-home-ntd .chitiet_cauhoi {
+    width: 100%;
+    display: none;
+    padding: 24px 0;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    background-color: #fff;
+    border: 1px solid #eee;
+    border-top: 0px;
+    font-size: 14px;
+    line-height: 22px;
+    color: #424242;
+}
+.body-home-ntd .chitiet_cauhoi a{
+    text-decoration: underline;
+    color: #029c7d;
+}
+.body-home-ntd .icon_arrow_green_drop.hidearr {
+    background-position: -144px -48px;
+}
+.body-home-ntd .icon_arrow_green_drop.showarr {
+    background-position: -120px -48px;
+}
+.body-home-ntd .item_cauhoi{
+    position: relative;
+    width: 100%;
+}
+.body-home-ntd .item_cauhoi .hideshow {
+    position: absolute;
+    right: 4px;
+    top: 8px;
+}
+.body-home-ntd .open_cauhoi.active{
+    width: 100%;
+    height: 48px;
+    -webkit-border-radius: 2px 2px 0 0;
+    -moz-border-radius: 2px 2px 0 0;
+    border-radius: 2px 2px 0 0;
+    background-color: #2d82c3;
+    line-height: 48px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+}
+.body-home-ntd .chitiet_cauhoi.active{
+    display: block;
+}
+.footer_gray{
+    background: #464646;
+    height: 110px;
+    padding-top: 10px;
+}
+.footer_gray .line_grey {
+    border-bottom: 1px solid #636363;
+    margin-left: 14px;
+}
+.footer_gray .list_category_foot{
+    width: 25%;
+    float: left;
+}
+.footer_gray .title{
+    color: #acacac;
+    margin: 0px 0 5px 5px;
+    display:block;
+}
+.box_ps_help .info_contact .itemContact{
+    font-weight: 600;
+    font-size: 14px;
+    color: #424242;
+    margin-bottom: 10px;
+}
+.box_ps_help .info_contact .itemContact .numberCall{
+    font-size: 24px;
+    color: #ed1c24;
+}
+.box_ps_help .text_ps_des .title{
+    font-weight: 600;
+    font-size: 14px;
+    color: #363636;
+    margin: 10px 0;
+}
+.box_ps_help .text_ps_des p{
+    font-size: 14px;
+    color: #363636;
+    margin-bottom: 20px;
+}
+.content-tab-ntd .box_ps_help .box_service {
+    margin-top: 10px;
+}
+.content-tab-ntd .box_ps_help .box_title_content {
+    margin-top: 23px;
+}
+.listPostBanner .itemPostBanner{
+    padding: 40px 80px;
+    float: left;
+}
+.body-home-ntd .product-service h2, .body-home-ntd .recipes-recruitment h2, .body-home-ntd .question-answer h2{
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+  padding: 50px 0 30px 0;
+}
+
+.icon-sprite-hs-new {
+    background: rgba(0, 0, 0, 0) url("https://cdn.timviecnhanh.com/asset/home/img/sprite_hd_ntd.png") ;
+}
+
+.icon_ntd {
+    background: url(https://cdn.timviecnhanh.com/asset/home/img/xicon_timviecnhanh_new.png);
+    background-repeat: no-repeat;
+    position: relative;
+    display: inline-block;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.icon-push-up {
+    background-position: right -3171px;
+}
+
+.title-employer {
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #363636;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/*filter job12*/
+.row-fix{
+    margin-left: 10px;
+    margin-right: 15px;
+}
+.box-form{
+    width: 93%;
+    float: left;
+}
+.col-md-3{
+    width:25%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+    margin: 20px auto;
+}
+.col-md-3 .style-flat{
+    position: relative;
+}
+.col-md-3 a.select2-choice{
+    background: #fff!important;
+    padding: 0px 0 0 40px!important;
+}
+span.icon-fields{
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    background-size: 250px auto;
+}
+span.icon-fields i.icon-sprite-small{
+    background-size: 250px auto;
+    margin-right: 0px;
+}
+span.icon-fields .icon-job{
+    background-position: -50px -52px;
+    width: 26px;
+}
+span.icon-fields .icon-year{
+    background-position: -2px -52px;
+}
+span.icon-fields .icon-salary{
+    background-position: 0 -28px
+}
+span.icon-fields .icon-add{
+    background-position: 0 -2px
+}
+.box-action{
+    width: 7%;
+    float: left;
+}
+.box-action .submit{
+    border: 1px solid red;
+    background: red;
+    margin: 20px auto;
+    border-radius: 0 3px 3px 0;
+    width: 70px;
+    height: 40px;
+}
+
+.box-action .submit:hover{
+    background-color: #d00505;
+    border: 1px solid #d00505;
+}
+
+.jobdetail-fixed {
+  position:fixed;
+  top:101px;
+  z-index: 1;
+  background: #FFFFFF;
+}
+
+.btn-job-detail-green {
+    background-color: #1cba43;
+    border-color: #1cba43;
+}
+.btn-job-detail-green:hover {
+    background-color: #169435;
+}
+
+/*#1920*/
+.nav-menu-ntd-old{
+    background: #e7f3f1;
+    margin-bottom: 20px;
+    margin-top:0px;
+}
+.nav-menu-ntd-old a:hover{
+    background: #c9e2de;
+    margin-bottom: 20px;
+    margin-top:0px;
+}
+.nav-menu-ntd-old .icon {
+    background: url(https://cdn.timviecnhanh.com/asset/home/img/icon_timviecnhanh_old.png);
+    background-repeat: no-repeat;
+    position: relative;
+    display: inline-block;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.nav-menu-ntd-old .icon-find-hs {
+    background-position: center -2646px;
+    top: 7px;
+}
+.nav-menu-ntd-old .icon-tai-khoan {
+    background-position: center -1240px;
+    top: 7px;
+}
+.nav-menu-ntd-old .icon-post-now {
+    background-position: center -2736px;
+    top: 7px;
+}
+.nav-menu-ntd-old .icon-posted {
+    background-position: center -2450px;
+    top: 7px;
+}
+.nav-menu-ntd-old .icon-hs-ung-tuyen {
+    background-position: center -2126px;
+    top: 7px;
+}
+.nav-menu-ntd-old .icon-da-luu {
+    background-position: center -2126px;
+    top: 7px;
+}
+.nav-menu-ntd-old .icon-hs-ung-tuyen {
+    background-position: center -2152px;
+    top: 7px;
+}
+.nav-menu-ntd-old .icon-thong-ke {
+    background-position: center -2780px;
+    top: 7px;
+}
+.nav-menu-ntd-old .icon-cover {
+    background-position: -4px -3213px;
+    top: 7px;
+}
+.nav-menu-ntd-old .pl0{
+    padding-left: 0;
+}
+.nav-menu-ntd-old .pr0{
+    padding-right: 0;
+}
+.nav-menu-ntd-old .p5{
+    padding: 0 5px;
+}
+
+.fl-right {
+    float: right;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.resume_not_approval {
+    border: 1px solid red;
+    padding: 10px;
+}
+
+p.noti_gpkd {
+    color: red;
+    border: 1px solid #4caf50;
+    padding: 10px;
+}
+
+.stl_12 {
+    color: #49ACC5;
+    font-weight: bold;
+    display: inline;
+    font-size: 8pt;
+}
+.stl_16 {
+    color: #000000;
+    font-weight: bold;
+    display: inline;
+    font-size: 20pt;
+    font-family: "KDPJIP+Times New Roman,Bold";
+}
+.fs20 {
+  font-size: 20px !important;
+}
+.mb0 {
+  margin-bottom: 0px !important;
+}
+.mb40 {
+  margin-bottom: 40px;
+}
+.mt40 {
+  margin-top: 40px !important;
+}
+.table-content-rule {
+  width: 100%;
+}
+.table-content-rule th {
+  background-color: #49ACC5;
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+}
+.table-content-rule th,.table-content-rule td{
+  padding: 5px;
+  border: 1px solid #cdcdcd;
+}
+.td_vet {
+  vertical-align:middle;
+}
+.table-content-rule1 tbody tr:hover {
+    background-color: #ffffff !important;
+}
+
+.create-pro-form .group-field .label1 {
+    width: 217px;
+    text-align: right;
+    padding-right: 20px;
+    float: left;
+    padding-top: 9px;
+    color: #363636;
+    font-size: 14px;
+}
+
+div#salary_words::first-letter {
+    text-transform: uppercase;
+}
+
+div#current_salary_words::first-letter {
+    text-transform: uppercase;
+}
+
+.salary-right {
+    float: right;
+    width: 90px;
+    margin-top: 6px;
+    margin-right: 20px;
+}
+
+.create-pro-form .group-field .label2 {
+    width: 217px;
+    text-align: right;
+    padding-right: 20px;
+    float: left;
+    color: #363636;
+    font-size: 14px;
+}
+
+.icon-sprite-small-new {
+    background: url("../img/ho-so/sprite_icn_small_new.png") no-repeat;
+    background-size: 25px 27px;
+    background-position: 8% 0%;
+    margin-top: 2px;
+}
+
+.forbig10 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* danh cho ntd*/
+.box-employer-best{
+  width: 88%;
+  margin: auto;
+}
+.box-employer-best .img-logo {
+  padding: 10px;
+}
+
+.box-employer-best .img-logo .img-logo-inner{
+  padding-left: 20px;
+  padding-right: 20px;
+  border: 1px solid #d7d7d7;
+}
+
+.p-more-list{
+  text-align: right;
+}
+.p-more-list a.a-more-list{
+  color: #029c7d;
+}
+.select2-choices {
+  background-image: -webkit-linear-gradient(top, #fff 1%, #fff 15%) !important;
+  border: 1px solid #CCC !important;
+}
+.border-all-black-1 {
+  border: 1px solid #7b7a7a;
+}
+abbr[title], dfn[title]{
+  text-decoration: none !important;
+}
+.text-color-ntd{
+  color: #029c7d !important;
+}
+.them-dieu-kien{padding: 10px;}
+.them-dieu-kien h3 {
+  font-size: 18px;
+  padding: 10px;
+  font-weight: 600;
+}
+.them-dieu-kien.block-sidebar .select-style .select2-choice, .them-dieu-kien.block-sidebar .select-style .select2-choices {
+  height: 38px;
+  line-height: 38px;
+}
+.them-dieu-kien .input-style2 {
+  margin-bottom: 10px;
+  height: 30px!important;
+  padding: 5px 1.5%!important;
+  width: 96.5%!important;
+}
+.tbl-area-phone tr td{
+    padding: 5px 10px;
+    vertical-align: middle;
+}
+.td-background-color{
+  background: #f5f5f5;
+}
+.bd-table{
+  border: 1px solid #b5b5b5!important;
+}
+
+.fix-icon-style-1{
+  color: #2D82C4;
+  vertical-align: middle;
+  padding-right: 6px;
+}
+
+.tag-search-input{
+  vertical-align: top;
+  height: 32px;
+  border-radius: 3px;
+  outline: none;
+  font-size: 12px;
+}
+.tag-submit-input{
+  height: 34px;
+  line-height: 34px;
+  border-radius: 3px;
+  padding: 0px 10px;
+  font-size: 12px;
+}
+.fix-icon-xs{
+  transform: scale(0.8,0.8);
+  width: 16px;
+}
+
+.sprite_icn_large_2017{
+  background: url(../img/sprite_icn_large.png) no-repeat;
+  background-size: 220px;
+  position: relative;
+  display: inline-block;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon_timviecnhanh_2017 {
+  background: url(../img/icon_timviecnhanh.png) no-repeat;
+  background-size: 24px 2000px;
+  position: relative;
+  display: inline-block;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.new_xicon_timviecnhanh_2017{
+  background: url(../img/new_xicon_timviecnhanh.png.pagespeed.ic.NMCs2bdY-v.png) no-repeat;
+  position: relative;
+  display: inline-block;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.xicon_timviecnhanh_new_2017{
+  background: url(../img/xicon_timviecnhanh_new.png) no-repeat;
+  position: relative;
+  display: inline-block;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-eyes-2017{
+  background-position: -85px -137px;
+  top: 7px;
+}
+
+.icon-save-2017{
+  background-position: 0px -1975px;
+  top: 7px;
+}
+.icon-back-2017{
+  background-size: 36px 3000px;
+  background-position: -7px -2788px;
+  top: 7px;
+}
+.icon-edit-2017{
+  background-position: -13px -3115px;
+  top: 7px;
+}
+.icon-delete-2017{
+  background-position: -5px -63px;
+  top: 7px;
+}
+.icon-head-add_2017{
+  background-size:180px auto !important;
+  background-position: -162px -35px !important;
+  display: inline-block !important;
+}
+.icon_sm_2017{
+  width: 26px !important;
+  height: 26px !important;
+}
+.icon-register-home_2017{
+  background-size: 70px auto !important;
+  background-position: -39px -60px !important;
+  top: 7px !important;
+}
+.box-emailMarketing-note{
+  border: 2px solid red;
+}
+.padding-10{
+  padding: 10px !important;
+}
+.box-reason-explain{
+  background: #FBDDDD;
+  padding: 5px 10px
+}
+.box-notification{
+  border-bottom: 1px solid #e1e1e1;
+  margin-top:10px;
+}
+.box-notification h3{
+  position: relative;
+  padding: 10px 20px;
+}
+.box-notification-first{
+  border: 2px solid #eb1b22;
+  margin-top:10px;
+}
+.box-notification-first h3{
+  position: relative;
+  padding: 10px 20px;
+  background: #fbdddd;
+}
+.img-zoom {
+  max-width: 100% !important;
+  height: auto !important;
+}
+.sw1000{width:1000px!important;}
+.vertical-align-top{
+  vertical-align: top;
+}
+.fix-height-38{
+  height: 38px!important;
+}
+
+.font-12{ font-size: 12px}
+
+.mb_7{
+  margin-bottom: 7px;
+}
